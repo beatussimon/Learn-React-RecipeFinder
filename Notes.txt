@@ -23,3 +23,6 @@ in react instead of using promises w use async await
 
 Saving all the food data into the search component will make it impossible for other parts of the application to interact with the data
 So the best practice is to save the state into app then we can pass the food data into the search component`
+
+
+If you want to apply some styles to the entire webpage then ou can apply them through App.css
