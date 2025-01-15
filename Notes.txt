@@ -1,0 +1,25 @@
+Install postman -Post man actually acts like a browser and instead of returning the whole webpage it returns the raw data
+
+In react you can tdirectly us fetch to make an api call
+
+Hooks are just regular function but these functions can be used inside the rect components
+
+a useEffect hook is the hook that allows us to sync a component with an external system
+
+Whenever we want our component to sync with external api, we use useeffect hook so whenever the component changes the data chnages and 
+
+Whenever we change the search query we want our react application to communicarte with an external api and we also sync with data of the component as well 
+so thet as soon the query changes the data is changed and the component is updated in real time
+
+The useEffect hook takes two arguments the first is a callback function and the second is the the dependency list 
+callback function=> is the function that is passed as an argument to another function and is executed after the compeletion of that function; used in 
+in programming to handle asynchronous operations, event handling or customization of behaviour.
+
+Whenever you load the useEffect hook for the first time the callback function is going to be executed
+
+Strict mode in react
+
+in react instead of using promises w use async await 
+
+Saving all the food data into the search component will make it impossible for other parts of the application to interact with the data
+So the best practice is to save the state into app then we can pass the food data into the search component`
