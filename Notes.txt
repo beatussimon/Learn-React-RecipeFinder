@@ -29,3 +29,6 @@ If you want to apply some styles to the entire webpage then ou can apply them th
 
 
 When you have to acess the child components, it is automatically passed to to the parent component and can be accessed via props
+
+
+TOMMOROWS plan is getting up to episode 70, so that on saturday im done with react

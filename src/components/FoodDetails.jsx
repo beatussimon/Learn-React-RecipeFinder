@@ -30,7 +30,7 @@ export default function FoodDetails({foodId}) {
             <span><strong>🕧{food.readyInMinutes}Minutes</strong></span>
             <span>👪<strong>Serves {food.servings}</strong></span>
             <span>{food.vegetarian?'🥕 Vegetarian': '🍖 Non-Vegetarian'}</span>
-            <span>{food.vegan?: '🐮 Vegan': ''}</span>
+            <span>{food.vegan? '🐮 Vegan': ''}</span>
         </div>
 
         <div>
