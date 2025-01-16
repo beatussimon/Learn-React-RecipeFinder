@@ -26,3 +26,6 @@ So the best practice is to save the state into app then we can pass the food dat
 
 
 If you want to apply some styles to the entire webpage then ou can apply them through App.css
+
+
+When you have to acess the child components, it is automatically passed to to the parent component and can be accessed via props

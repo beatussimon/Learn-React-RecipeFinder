@@ -1,0 +1,10 @@
+.parentContainer{
+    display: flex;
+    flex: 1;
+}
+
+.innerContainer{
+    margin: 20px;
+    flex: 1;
+    padding: 20px;
+}
