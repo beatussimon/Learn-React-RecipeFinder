@@ -39,7 +39,7 @@ export default function FoodDetails({foodId}) {
 
         <div>
             <h2>Instructions:</h2>
-            {isloading? <p>Loading</p> : food.analyzedInstructions[0].steps.map((step)=>(<h1 key={food.id}>step.step</h1>)) }
+            {isloading? <p>Loading</p> : food.analyzedInstructions[0].steps.map((step)=>(<h2><li key={food.id}>{step.step}</li></h2>)) }
         </div>
     </div>
   )
